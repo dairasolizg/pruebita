@@ -36,3 +36,4 @@ let mySprite2 = sprites.create(img`
     4 d d d 4 4 4 . . . . . . . . . 
     4 4 4 4 . . . . . . . . . . . . 
     `, SpriteKind.Food)
+music.playMelody("C D E F G A B C5 ", 120)
