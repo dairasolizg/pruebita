@@ -1,5 +1,5 @@
 scene.setBackgroundColor(9)
-let mySprite = sprites.create(img`
+let pato = sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . . . . b c . . . . . 
@@ -17,7 +17,8 @@ let mySprite = sprites.create(img`
     . . c b d d d d d 5 5 5 b b . . 
     . . . c c c c c c c c b b . . . 
     `, SpriteKind.Player)
-scene.cameraFollowSprite(mySprite)
+controller.moveSprite(pato)
+scene.cameraFollowSprite(pato)
 let mySprite2 = sprites.create(img`
     . . . . . . b b b b . . . . . . 
     . . . . . . b 4 4 4 b . . . . . 
